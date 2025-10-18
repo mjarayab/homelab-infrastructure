@@ -1,224 +1,285 @@
-# 🏠 Homelab Infrastructure & Leadership Journey
+# Homelab Infrastructure - DevOps Learning Journey
 
-> **From Intel Process Excellence to DevOps Team Leadership**  
-> Transforming operational challenges into high-performing technical teams
+## Project Overview
 
-## 🎯 Professional Summary
+This repository documents my systematic transition from logistics coordination to DevOps engineering, showcasing real infrastructure implementations, hands-on learning progression, and practical application of enterprise methodologies. All content represents actual deployments and honest skill assessment rather than theoretical knowledge claims.
 
-**Background:** 27+ years combining technical leadership, operational excellence, and team transformation  
-**Current Focus:** DevOps Engineering + Team Leadership  
-**Unique Value:** Proven ability to transform toxic cultures into high-performing teams while building technical expertise  
-**Timeline:** Ready for DevOps Team Lead roles immediately  
+## Current Infrastructure
 
-### Core Expertise
-- **Operational Transformation:** Led culture change in toxic environments, turned demotivated teams into collaborative high-performers
-- **Process Excellence:** Intel-trained in continuous improvement, KPI optimization, and systematic problem-solving
-- **Technical Infrastructure:** Active homelab with virtualization, networking, and real business application development
-- **Change Management:** Successfully implement improvements in resistance-prone traditional organizations
+### Production Environment (24/7 Operation)
 
-## 🖥️ Current Homelab & Technical Projects
+- **Intel NUC 5i3RYK**: Proxmox VE host running Pi-hole DNS (1+ year uptime), Transmission, GNS3
+- **Intel NUC 6i5SYK**: VMware development environment with pfSense security labs
+- **Raspberry Pi 2**: OpenMediaVault NAS serving Plex media and file shares
+- **Network**: TG2482 ISP router + Allied Telesis managed switch (flat topology, VLAN segmentation planned)
 
-### Production Infrastructure
-- **Intel NUC 5i3** (16GB/500GB) → Proxmox virtualization host
-- **Intel NUC 6i5** (16GB/500GB) → VMware development environment  
-- **Raspberry Pi 2** (2TB SSD) → OpenMediaVault NAS
-- **Dell T320 + T110** → Expansion servers (preparing for Kubernetes cluster)
+### Standby Equipment
 
-### Active Services & Projects
-- 🛡️ **Pi-hole DNS Filtering** → Network-wide ad blocking and analytics (1+ year deployment)
-- 🎬 **Plex Media Server** → Containerized streaming service
-- 🌐 **GNS3 Network Lab** → CCNA practice environment and network simulation
-- 🔥 **pfSense Firewall Lab** → Virtual firewall testing and configuration
-- 🐧 **Multi-Linux Environment** → Ubuntu, CentOS, Debian for learning and testing
+- **Dell PowerEdge T320**: Planned Kubernetes master node deployment
+- **Dell PowerEdge T110 II**: Planned Kubernetes worker node
 
-### Real Business Application Development
-- 🚗 **Vehicle Control System** (Currently developing for family business)
-  - **Technology Stack:** Python/Flask + PostgreSQL + PDF generation
-  - **Business Impact:** Solving real operational problem (vehicle damage tracking)
-  - **Deployment:** Self-hosted on homelab infrastructure
-  - **Skills Demonstrated:** Full-stack development, database design, business requirements analysis
+## Active Services
 
-## 👥 Current Leadership Impact (Grupo Favarcia Logistics)
+1. **Pi-hole** (LXC): Network-wide DNS filtering, household production service
+1. **Transmission** (LXC): BitTorrent client with OMV storage integration
+1. **GNS3** (VM): Network simulation for CCNA practice
+1. **pfSense** (VM): Virtual firewall for advanced networking concepts
+1. **Plex**: Media streaming server on OMV
+1. **File Shares**: SMB/CIFS cross-platform access and backups
 
-### Operational Transformation Challenge
-**Environment:** High-turnover warehouse (70%+ annual), toxic blame culture, impossible KPIs (1 min/line), manual processes  
-**Leadership Role:** Informal team leader driving culture change and process improvement  
-**Team Size:** 8-10 warehouse associates in demotivated environment  
+## Professional Background
 
-### Transformation Initiatives Applied
-- **Culture Change:** Shifted from blame-first to learning-first mentality, implemented daily recognition
-- **Process Optimization:** Identified systematic inefficiencies (disorganized inventory, outdated locations, manual search processes)
-- **Team Building:** Created collaborative environment in traditionally toxic workplace
-- **Continuous Improvement:** Applied Intel methodologies to warehouse operations
+### Intel Corporation (1998-2005)
 
-### Leadership Philosophy in Action
+**Career Progression**: Manufacturing Technician → Process Engineering Technician → Process Engineer
+
+- **Process Engineering Excellence**: Technology transfers from US operations to Costa Rica facility
+- **Team Training & Development**: Led training programs for 50+ technicians across multiple process areas
+- **Quality Systems Leadership**: ISO 9001/14001 internal auditor, systematic problem-solving methodology
+- **Equipment Reliability**: Achieved 90%+ availability through preventive maintenance and process optimization
+- **Methodology Foundation**: Seven Steps root cause analysis, statistical process control, continuous improvement culture
+
+### Tecnorótulos (2005-2022)
+
+**Role**: Founder & Technical Director
+
+- **Company Type**: Corporate signage design, fabrication, and installation services
+- **Scale Achievement**: Grew from startup to 15-employee company serving major corporate clients
+- **Major Clients**: FIFCO (Costa Rica Brewery), Musmanni (bakery chain), Four Seasons Resort, Banco Lafise
+- **Technical Operations**: Project management, team leadership, client relationship management
+- **Business Skills**: P&L responsibility, vendor relationships, process optimization, quality control
+
+### Grupo Favarcia (2025-Present)
+
+**Position**: Logistics Coordinator
+
+**Operational Transformation Through Systematic Methodology**
+
+Applying Intel Seven Steps problem-solving approach to warehouse operations, driving measurable improvements in team performance and operational efficiency.
+
+**Process Improvement Initiatives:**
+
+- **Workflow Optimization**: Systematic analysis and documentation of inventory management processes
+- **Operational Planning**: Implementation of proactive coordination systems and daily planning procedures
+- **Efficiency Analysis**: Identification and resolution of logistics bottlenecks through data-driven approach
+- **Procedure Standardization**: Development of documented best practices for consistent execution
+- **Technology Evaluation**: Assessment of automation opportunities for manual process improvement
+
+**Team Leadership & Development:**
+
+- **Collaborative Environment**: Leading 8-10 warehouse associates toward systematic problem-solving culture
+- **Communication Enhancement**: Established effective coordination between management and operations teams
+- **Recognition Systems**: Daily positive reinforcement and performance acknowledgment implementation
+- **Cross-Training Programs**: Knowledge sharing initiatives for operational flexibility
+- **Continuous Improvement**: Shift from reactive operations to proactive issue identification and resolution
+
+**Measurable Outcomes:**
+
+- Enhanced team collaboration and communication effectiveness across shifts
+- Systematic problem-solving methodology replacing ad-hoc reactive approaches
+- Improved operational planning reducing last-minute scheduling challenges
+- Documentation of procedures enabling knowledge transfer and consistent quality
+- Increased team engagement through recognition and clear communication
+
+**Skills Applied:**
+
+- Seven Steps methodology for root cause analysis and systematic improvement
+- Process documentation and standard operating procedure development
+- Change management and cultural transformation leadership
+- Cross-functional communication and stakeholder coordination
+- Performance metrics development aligned with operational reality
+
+**Professional Development Integration:**
+This role demonstrates practical application of process engineering principles to logistics operations, leadership development in operational environments, and systematic problem-solving - competencies directly transferable to DevOps team leadership and operational excellence roles.
+
+## Skills Development
+
+### Current Level (Honest Assessment)
+
+- **Virtualization**: Proxmox basic-intermediate, VMware basic-intermediate
+- **Operating Systems**: Linux basic-intermediate (Ubuntu, CentOS, Debian)
+- **Networking**: CCNA theory in progress (Universidad Nacional), flat network operational experience
+- **Scripting**: Python beginner level, bash basics
+- **Version Control**: Git/GitHub professional workflow established
+- **Containers**: Docker theoretical knowledge, practical implementation planned
+
+### Active Learning
+
+- **CCNA Certification**: Universidad Nacional Cisco Networking Academy program
+- **Python Development**: Hands-on learning through vehicle control system project
+- **Container Technology**: Docker and Kubernetes study with planned homelab implementation
+- **Infrastructure Monitoring**: Grafana and Prometheus preparation
+- **Infrastructure as Code**: Terraform and Ansible conceptual learning
+
+## Development Roadmap
+
+### Priority 1: Foundation (Months 1-3)
+
+- VLAN network segmentation implementation
+- Dell T320 server deployment with storage configuration
+- Docker service containerization
+- CCNA certification completion
+- Python fundamentals through practical application
+
+### Priority 2: Intermediate (Months 4-6)
+
+- Kubernetes cluster deployment (T320 + T110)
+- Monitoring stack implementation (Grafana + Prometheus)
+- Vehicle control system development and production deployment
+- Automated backup solution implementation
+
+### Priority 3: Advanced (Months 7-12)
+
+- CI/CD pipeline basic implementation
+- Infrastructure as Code adoption (Terraform/Ansible basics)
+- Advanced networking features (VPNs, advanced firewall rules)
+- High availability concepts and disaster recovery planning
+
+## Real-World Project: Vehicle Control System
+
+### Business Context
+
+Development of web-based vehicle inspection and control system for family business operations, replacing manual paper forms with digital workflow and historical tracking.
+
+### Technical Implementation
+
+- **Backend**: Python Flask framework + PostgreSQL database
+- **Frontend**: Responsive web interface for mobile field use
+- **Features**: Vehicle registration, pre/post-trip inspections, damage documentation with photos, automated PDF report generation
+- **Deployment**: Self-hosted on homelab infrastructure
+- **Collaboration**: Two-developer team using professional Git workflow
+
+### Project Value
+
+- **Portfolio Demonstration**: Full-stack development with real business requirements
+- **Practical Learning**: Python, databases, web frameworks, deployment practices
+- **Business Impact**: Operational efficiency improvement and compliance documentation
+- **Professional Skills**: Requirements gathering, stakeholder management, project delivery
+
+## Career Transition Strategy
+
+### Target Position
+
+DevOps Engineer / Team Lead with $1500-2500 USD compensation range in Costa Rica or remote international opportunities.
+
+### Realistic Timeline
+
+18-24 months for systematic skill development and portfolio building, emphasizing learning journey transparency over premature expertise claims.
+
+### Competitive Advantages
+
+- **Real Infrastructure**: Physical homelab providing production-like experience vs cloud-only implementations
+- **Engineering Foundation**: Intel process improvement methodology and quality systems background
+- **Business Experience**: P&L responsibility and team leadership from 17-year company ownership
+- **Current Operations**: Active application of systematic problem-solving in logistics environment
+- **Learning Transparency**: Honest skill assessment and documented progression demonstrating growth mindset
+
+### Portfolio Development Approach
+
+- **GitHub Repository**: Professional documentation of actual implementations with visual evidence
+- **Learning Journey**: Daily study notes and systematic skill progression documentation
+- **Real Projects**: Business application development demonstrating practical capability
+- **Professional Standards**: Enterprise-level documentation quality and honest competency representation
+
+## Success Metrics
+
+### Technical Competency
+
+- Service uptime and reliability (99%+ target for production services)
+- Systematic documentation completeness and professional presentation
+- Certification achievement (CCNA completion, future container certifications)
+- Project implementation success with measurable business value
+
+### Professional Development
+
+- GitHub repository activity and quality (consistent commits, professional documentation)
+- LinkedIn profile optimization and professional networking growth
+- Job market engagement and interview conversion rates
+- Skill validation through practical implementations and peer feedback
+
+### Business Value Creation
+
+- Vehicle control system operational deployment and stakeholder satisfaction
+- Homelab cost efficiency and resource optimization
+- Family business operational improvements through technology application
+- Process improvement documentation and knowledge transfer capability
+
+## Repository Structure
+
 ```
-Current Challenge: Building team cohesion in high-stress, high-turnover environment
-My Approach: Personal connection first - I invest time getting to know each team member 
-as individuals, understanding their motivations and challenges beyond work
-
-Results: Improved team morale and collaboration, even in toxic organizational culture
+homelab-infrastructure/
+├── README.md                    # This comprehensive documentation
+├── services/                    # Production service documentation
+│   └── pihole-production.md    # Pi-hole deployment and configuration
+├── hardware/                    # Physical infrastructure inventory
+│   ├── inventory.md            # Complete hardware specifications
+│   └── photos/                 # Visual documentation of equipment
+├── network/                     # Network topology and planning
+├── study-notes/                # Learning journey documentation
+│   ├── dia-1-2-git-fundamentals.md
+│   ├── dia-3-professional-documentation.md
+│   ├── day-4-repository-infrastructure-recovery
+│   └── seven-steps-portfolio-analysis.md
+├── labs/                       # Hands-on learning implementations
+│   └── README.md              # Lab environment documentation
+└── development/               # Development learning path
+    └── README.md              # Programming skill progression
 ```
 
-### Adapting to Remote Leadership (Learning Opportunity)
-While my leadership experience has been primarily in-person, I recognize that remote team management requires:
-- **Intentional relationship building:** Translating personal connection skills to virtual environments
-- **Structured communication:** Regular 1:1s and team check-ins to maintain human connection
-- **Individual adaptation:** Understanding how each person works best remotely
-- **Trust-building:** Creating psychological safety without physical presence
+## Learning Methodology
 
-**Current Focus:** Learning how to apply my people-first leadership approach in remote/distributed teams
+### Honest Assessment Principle
 
-## 📈 Skills Development & Certifications
+All skill claims represent actual demonstrated capability rather than aspirational knowledge. Portfolio emphasizes learning progression and growth mindset over false expertise claims.
 
-### ✅ Current Technical Skills
-- **Virtualization:** Proxmox VE, VMware Workstation, LXC containers
-- **Networking:** CCNA in progress (Universidad Nacional - Cisco Academy)
-- **Linux Administration:** Multi-distribution experience, shell scripting
-- **Development:** Python scripting, web application development, database design
-- **Storage & NAS:** OpenMediaVault, network file sharing, backup strategies
+### Systematic Approach
 
-### 🔄 Active Learning (Next 90 Days)
-- **Containerization:** Docker deployment and container orchestration
-- **Monitoring:** Grafana + Prometheus implementation across homelab
-- **Cloud Foundations:** AWS Cloud Practitioner certification
-- **Automation:** Python scripts for infrastructure management
+- **Real Implementations**: Physical infrastructure deployments vs tutorial completion
+- **Documentation Standards**: Professional technical writing for portfolio value
+- **Progressive Complexity**: Basic operations → intermediate → planned advanced features
+- **Business Application**: Practical projects with real stakeholders and requirements
 
-### 🎯 Strategic Roadmap (12 Months)
-- **Kubernetes:** Multi-node cluster deployment on Dell servers
-- **CI/CD Pipelines:** GitLab/GitHub Actions for application deployment
-- **Infrastructure as Code:** Terraform + Ansible for automated provisioning
-- **Advanced AWS:** Solutions Architect Associate certification
+### Knowledge Validation
 
-## 🔧 Technical Project Portfolio
+- **Certification Path**: CCNA (in progress) → Docker/Kubernetes certifications (planned)
+- **Practical Deployment**: Operational services demonstrating hands-on capability
+- **Peer Review**: Code review practices and collaborative development
+- **Market Feedback**: Recruiter and industry professional engagement
 
-### Network Infrastructure
-```
-ISP Router → Home Network (192.168.1.0/24)
-    ├── Proxmox Host (Multiple VMs/LXC)
-    ├── VMware Development Environment
-    ├── OpenMediaVault NAS
-    └── Management Devices
+## Current Focus
 
-Planned: VLAN segmentation, managed switches, redundant services
-```
+### Week 1: Git & GitHub Mastery (Days 1-7)
 
-### Virtualization Environment
-- **Proxmox Cluster:** Production services hosting
-- **VMware Lab:** Development and testing environment
-- **Container Strategy:** LXC for lightweight services, Docker for applications
-- **High Availability Planning:** Dell servers for redundant infrastructure
+- ✅ Professional Git workflow and branching strategy
+- ✅ Comprehensive repository documentation
+- ✅ Study notes systematic organization
+- 🔄 Visual evidence implementation (hardware photography)
+- 📋 Advanced Git features and professional polish
 
-## 🎖️ Professional Background
+### Immediate Priorities
 
-### Intel Corporation (1998-2005): From Technician to Engineering Leadership
-**Career Progression:** MTE → Process Engineering Tech → Process Engineer (functional role, not formal promotion)
+1. Complete CCNA certification through Universidad Nacional program
+1. Implement VLAN network segmentation for security and organization
+1. Deploy Dell T320 server with storage configuration
+1. Begin Docker containerization of existing services
+1. Continue vehicle control system development
 
-**Key Context:** Took on increasing responsibilities including full Process Engineer duties when the module engineer left, though without formal title/salary recognition
+## Technical Documentation Standards
 
-**Key Achievements:**
-- **Technology Transfer Leadership:** Led installation and qualification of manufacturing equipment from US to Costa Rica operations
-- **Team Training & Development:** Trained 50+ technicians on complex manufacturing systems and troubleshooting
-- **Engineering Responsibilities:** Functioned as module Process Engineer, managing critical production processes
-- **Continuous Improvement:** Implemented Seven Steps methodology, achieved 90%+ equipment availability
-- **Data-Driven Optimization:** Used LabVIEW, Visual Basic, SQL for process automation and KPI tracking
-- **Quality Systems:** ISO 9001/14001 internal auditor, systematic approach to operational excellence
+All documentation in this repository follows professional standards:
 
-**Skills Developed:** Process optimization, team leadership under pressure, systematic problem-solving, technical training delivery, stepping up to fill leadership gaps
+- **Accuracy**: Honest representation of current capabilities and limitations
+- **Completeness**: Sufficient technical detail for knowledge transfer and reproduction
+- **Clarity**: Explanations accessible to various technical audience levels
+- **Professional Presentation**: Enterprise-level documentation quality for career development
+- **Continuous Updates**: Regular refinement based on learning progression and implementation
 
-### Tecnorótulos (2005-2022): Entrepreneurship & Business Leadership
-**Role:** Founder & Technical Director (17 years)
+## Contact & Collaboration
 
-**Key Achievements:**
-- **Business Building:** Founded and scaled signage/graphics business from startup to 15-employee company
-- **Client Management:** Served major clients (FIFCO, Musmanni, Four Seasons, Banco Lafise)
-- **Technology Integration:** Implemented digital design workflows and production automation
-- **Team Leadership:** Managed diverse teams, developed leadership and project management skills
-- **Adaptability:** Navigated market changes, economic challenges, technology evolution
+Open to feedback, mentorship, and professional networking within the DevOps community. This repository represents an ongoing learning journey and commitment to systematic skill development with transparent documentation of both successes and challenges.
 
-**Skills Developed:** Business acumen, customer relationship management, resource optimization, long-term strategic planning
+-----
 
-### Current Role (2025): Change Management in Traditional Environment
-**Role:** Logistics Coordinator - Grupo Favarcia
-
-**Ongoing Impact:**
-- **Cultural Transformation:** Leading informal change management in resistant organization
-- **Process Improvement:** Identifying and proposing systematic operational improvements
-- **Team Motivation:** Building collaborative culture in traditionally toxic environment
-- **Cross-functional Coordination:** Managing warehouse, logistics, and transport coordination
-
-**Skills Being Applied:** Change management, conflict resolution, team building under pressure, process optimization
-
-## 🎓 Education & Professional Development
-
-### Formal Education
-- **Engineering Studies:** Universidad Hispanoamericana (Electronics) + TEC (Maintenance Engineering)
-- **Status:** Advanced coursework completed, degree not completed due to career opportunities at Intel
-- **Practical Learning:** Extensive hands-on engineering experience through Intel and entrepreneurship
-
-### Professional Certifications & Training
-- **ISO 9001/14001 Internal Auditor** (Intel era)
-- **Cisco CCNA** - in progress (Universidad Nacional - Cisco Academy)
-- **Continuous Learning:** Self-directed technical education through homelab projects and online resources
-
-## 📊 Project Documentation Structure
-
-Detailed documentation for each component:
-- [Hardware Inventory & Specifications](./hardware/)
-- [Network Architecture & Design](./networking/)  
-- [Virtualization Infrastructure](./proxmox/)
-- [Service Deployments & Configuration](./services/)
-- [Development Projects](./development/)
-  - [Vehicle Control System](./development/vehicle-control-system/)
-- [Leadership & Process Transformation](./leadership/)
-- [Learning Labs & Experiments](./labs/)
-- [Automation Scripts & Tools](./scripts/)
-
-## 🎯 Career Objectives & Value Proposition
-
-### Immediate Goals (Next 6 Months)
-**Target Roles:** DevOps Team Lead | Site Reliability Engineer | Infrastructure Engineering Manager  
-**Salary Range:** $2000-3500 USD (remote LATAM/US or premium local)  
-**Value Proposition:** Combine proven team leadership with growing technical expertise
-
-### Long-term Vision (12-18 Months)
-**Target Roles:** Senior DevOps Engineer | Engineering Manager | Principal SRE  
-**Salary Range:** $3500-5000+ USD  
-**Value Proposition:** Technical excellence + proven ability to build and lead high-performing engineering teams
-
-### Unique Competitive Advantage
-```
-Most DevOps candidates: Strong technical skills, limited leadership experience
-My profile: Proven transformational leadership + growing technical expertise + business acumen
-
-Result: Can immediately contribute as technical leader while continuing to develop specialized skills
-```
-
-## 📞 Professional Contact & Collaboration
-
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** mjaraya@gmail.com
-- **Location:** Alajuela, Costa Rica
-- **Remote Work:** Available for LATAM/US timezone collaboration
-- **Languages:** Spanish (native), English (professional working proficiency)
-
-### Open to Opportunities
-- **DevOps Team Leadership roles** with culture transformation component
-- **Site Reliability Engineering** positions emphasizing team building
-- **Infrastructure Engineering Management** combining technical and people leadership
-- **Consulting engagements** for operational transformation in tech organizations
-
----
-
-## 🏆 Professional Philosophy
-
-*"The same principles that transform chaotic operational environments into high-performing teams apply directly to DevOps engineering. Whether optimizing warehouse processes or infrastructure automation, success comes from combining systematic process improvement with people-first leadership, data-driven decision making, and sustainable practices that build long-term organizational resilience."*
-
----
-
-⚡ **Currently seeking:** DevOps Team Lead | Engineering Manager | Senior SRE roles  
-💰 **Target compensation:** $2000-3500 USD remote or equivalent local  
-📍 **Available:** Immediate start for strategic leadership opportunities  
-🚀 **Value delivery:** Day-one impact on team performance + continuous technical growth  
-
-*Last updated: September 2025 | This repository actively documents my ongoing technical and leadership journey*
+**Last Updated**: October 2025  
+**Repository Status**: Active development with consistent weekly commits  
+**Learning Phase**: Foundation building with CCNA certification and Docker implementation focus
